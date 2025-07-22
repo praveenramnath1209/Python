@@ -36,6 +36,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.class_object.executor": "Run",
+    "Python.constructor.executor": "Run",
     "Python.dict_stugrade.executor": "Run",
     "Python.dictionary.executor": "Run",
     "Python.frequency.executor": "Run",
