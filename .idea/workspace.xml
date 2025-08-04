@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7d15b7a-0428-4343-a7f2-b70c8b3c0afc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Projects/rock_paper_scissor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/rock_paper_scissor.py" afterDir="false" />
-    </list>
+    <list default="true" id="a7d15b7a-0428-4343-a7f2-b70c8b3c0afc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +33,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.dice_rolling.executor": "Run",
+    "Python.qrcodegenerator.executor": "Run",
     "Python.rock_paper_scissor.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",

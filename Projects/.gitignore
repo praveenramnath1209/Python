@@ -1,1 +1,15 @@
+# Ignore IDE settings
+.idea/
+
+# Ignore Python virtual environment
 venv/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore .pyc files (compiled Python files)
+*.pyc
+
+# Ignore output images like QR codes
+*.jpg
+*.png
