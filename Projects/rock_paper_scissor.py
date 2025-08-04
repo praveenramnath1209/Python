@@ -1,15 +1,32 @@
-#rock - ✊
-#paper - ✋
-#scissors - ✌️
-
 import random
 
-def cpu_choice():
-    tup = ("rock", "paper", "scissors")
-    x = random.choice(tup)
-    return x
+emojis = {
+    "r": "🪨",
+    "p": "📄",
+    "s": "✂️"
+}
 
-print("Choose one Below:")
-print("Do")
+choices = ('r', 'p', 's')
 
+while True:
+    ip = input("Rock, Paper, or Scissors? (r/p/s): ").lower()
+    cc = random.choice(choices)
 
+    if ip not in choices:
+        print("Invalid Input! Please select r, p, or s.")
+        continue
+
+    print(f"You chose {emojis[ip]}")
+    print(f"Computer chose {emojis[cc]}")
+
+    if ip == cc:
+        print("It's a Draw")
+    elif (ip == "s" and cc == "p") or (ip == "r" and cc == "s") or (ip == "p" and cc == "r"):
+        print("You won!")
+    else:
+        print("Computer won!")
+
+    cont = input("Do you want to play again? (y/n): ").lower()
+    if cont != 'y':
+        print("Thanks for playing!")
+        break
